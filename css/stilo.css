@@ -1,0 +1,64 @@
+html,body{
+    width: 100%;
+    height:100%;
+    font-size: 10px;   
+}
+
+.principal{
+	position: relative;
+	font-size: 2.5rem;
+	color: #999093;
+	height: 100vh;
+	
+	background-repeat: no-repeat; 
+	background-position: bottom center;
+}
+
+.italy{
+	float: left;
+	height: 100vh;
+	width: 50%;
+	background: url(../img/montanhas.jpg);
+	background-position: bottom center;
+}
+
+.tourism{
+	height: 100vh;
+	widows: 50%;
+	background: url(../img/img.jpg);
+	background-position: bottom right;
+}
+
+.fundo {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    content: '';
+    width: 50%;
+    background: rgba(190, 122, 121, .7);
+ 
+}
+
+.img{
+	display: table;
+	position: absolute;
+	bottom: 8rem;
+	left: 47.5%;
+	height: 7.3rem;
+	width: 7.3rem;
+	border: 8px solid white;
+	border-radius:50%; 
+	background: url(../img/img-re.jpg);
+}
+
+.center{
+	width: 100%;
+	display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.play{
+	width:26px;
+}
