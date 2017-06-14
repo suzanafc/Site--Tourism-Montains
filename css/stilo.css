@@ -1,17 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
 html,body{
     width: 100%;
     height:100%;
-    font-size: 10px;   
-}
-
-.principal{
-	position: relative;
-	font-size: 2.5rem;
-	color: #999093;
-	height: 100vh;
-	
-	background-repeat: no-repeat; 
-	background-position: bottom center;
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif; 
 }
 
 .italy{
@@ -23,8 +16,9 @@ html,body{
 }
 
 .tourism{
+	float: right;
 	height: 100vh;
-	widows: 50%;
+	width: 50%;
 	background: url(../img/img.jpg);
 	background-position: bottom right;
 }
@@ -38,6 +32,19 @@ html,body{
     width: 50%;
     background: rgba(190, 122, 121, .7);
  
+}
+
+.principal{
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    padding-left:2.1%;
+    padding-top: 4.5%;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
 }
 
 .img{
@@ -61,4 +68,158 @@ html,body{
 
 .play{
 	width:26px;
+}
+
+.italy h1{
+	float: right;
+	font-family: 'Playfair Display', serif;
+	font-size:7rem;
+	color: white;
+	margin-top: -34%;
+	margin-left: 20%; 
+}
+
+.linha hr{
+	margin-left: 10%;
+	margin-top: -5%;
+	background: white;
+   	border-color:white;
+}
+
+.numero{
+	color:white;
+	font-size: 2.8rem;
+	float left;
+	padding-left: 2%;
+}
+
+.texto{
+	font-size: 1.8rem;
+	color:white;
+	text-transform: uppercase;
+	transform:rotate(270deg); 
+	display:block;
+	position: absolute;
+	top:18%;
+	left:5%;
+}
+
+.direita{
+	margin-top: -12%;
+	margin-left: 20%;
+	color: white;
+	text-transform: uppercase;
+	font-size: 1.6rem;
+}
+
+.ponto{
+	font-size: 5rem;
+	padding: 0 2%;
+}
+
+.p-tourism{
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+	width: 50%;
+    padding-top: 2%;
+    padding-left:1.8%;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+}
+
+.imagens{
+	
+	clear: right;
+}
+
+.imagens img{
+	float: right;
+    margin-left:2%;
+    padding-top: 3%;
+    padding-bottom:4%;
+}
+
+.inc{
+	padding-left:2%;
+}
+
+.inc i {
+    color:rgb(118,77,111);
+    font-size: 2rem;
+    margin: 0 .15rem;
+}
+
+.inc .incone {
+    color:rgba(118,77,111,.5);
+}
+
+.inc-mini{
+	float: right;
+	padding: 0 2.5%;
+}
+
+.inc-mini .grande{
+	font-size: 3rem;
+	line-height: .4;
+}
+
+.inc-mini i{
+	color:rgb(255,255,255);
+    font-size: 2rem;
+    line-height: .4;
+    display: block;
+}
+
+.tourism-texto{
+	clear: right;
+}
+
+h2{
+	font-family: 'Playfair Display', serif;
+	font-size:4rem;
+	color:rgb(118,77,111);
+	margin: 4% 0;
+}
+
+p{
+	color:rgb(118,77,111);
+	float: right;
+	margin-right:22%;
+	width: 43.9rem;
+	font-size:1.6rem;
+}
+
+.linha1-tourism{
+ 	float: left;	
+}
+
+.linha1-tourism hr{
+	background-color: rgb(118,77,111);
+	border-color:rgb(118,77,111);
+}
+
+.rodape{
+	clear: right;
+	position: absolute;
+	bottom: 3%;
+	left: 15%;
+}
+
+.linha-tourism hr{ 
+	display: inline-block;
+	border-color:rgb(190, 122, 121);
+	background-color:rgb(190, 122, 121);
+}
+
+.linha-tourism{
+	margin-right:5px;
+}
+
+.view{
+	text-transform: uppercase;
+	color: rgb(190, 122, 121);
+	font-weight: 600;
 }
