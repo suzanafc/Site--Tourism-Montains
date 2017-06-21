@@ -249,6 +249,64 @@ p{
 	margin-left:16%; 
 	color: white;
 }
+@media screen and (max-width: 5700px) {
+	html,body{
+    		font-size: 34px;   
+		}
+	.play {
+  		width: 35%;
+  	}
+  	.imagens img{
+  		width: 20%;
+  	}
+}
+
+@media screen and (max-width: 4700px) {
+		html,body{
+    		font-size: 25px;   
+		}
+		
+	}
+
+@media screen and (max-width: 3000px) {
+		html,body{
+    		font-size: 17px;   
+		}
+	
+	}
+
+@media screen and (max-width: 2100px) {
+		html,body{
+    		font-size: 13px;   
+		}
+	}
+
+@media screen and (max-width: 1900px) {
+		html,body{
+    		font-size: 12px;   
+		}
+	}
+
+@media screen and (max-width: 1600px) {
+	html,body{
+		font-size: 11px;   
+	}
+
+	
+}
+
+@media screen and (max-width: 1440px) {
+	html,body{
+    	font-size: 10px;   
+	}
+
+	.play {
+  		width: 26px;
+  	}
+
+  	.imagens img{
+  		width: auto;
+  	}
 
 @media screen and (max-width: 1040px) {
   .ponto {
@@ -273,6 +331,109 @@ p{
 		width: 18%;
 	}
 }
+@media screen and (max-width: 1024px) and (min-height: 1024px) {
+	.italy{
+		float: none;
+		height: 50%;
+		width: 100%;
+	}
+
+	.tourism{
+		float: right;
+		height: 50%;
+		width: 100%;
+	}
+
+	.fundo,.p-tourism  {
+		width: 100%;
+		height: 50%;
+	}
+
+	.principal{
+		width: 100%;
+		height: 30%;
+		top: 20%;
+
+	}
+
+	.img {
+		bottom: 45%;
+	}
+
+	.p-tourism {
+		position: relative;
+	}
+
+	p{
+		width: 50%;
+	}
+
+	.linha{
+		height: 9rem;
+	}
+
+	.texto {
+    	transform: rotate(0deg);
+    	top: 15%;
+    	left: 4%;
+	}
+
+	.linha1-tourism hr{
+		width: 0;
+		display: none;
+	}
+
+	.linha-tourism hr{
+		display: none;
+	}
+
+	.inc-mini {
+		float: none;
+		position: absolute;
+		top:-180%;
+		right: 2%;
+	}
+
+	.inc{
+		position: absolute;
+		top:-180%;
+		left: 2%;
+	}
+
+	.inc i {
+		color: white;
+	}
+
+	.inc .incone {
+    	color: rgba(255,255,255,.5);
+	}
+
+	.imagens {
+		position: absolute;
+    	top: -30%;
+    	right: 2%;
+    	width: 50%;
+	}
+
+	h2{
+		padding-top:3%;
+		text-align: center;
+	}
+	.view {
+		font-size: 1.5rem;
+	}
+
+	p{
+		width: 90%;
+		font-size: 2.2rem;
+	}
+
+	.rodape{
+		bottom: -95%;
+	}
+}
+
+}
 
 @media screen and (max-width: 670px) {
 	html,body{
@@ -287,13 +448,14 @@ p{
  		width: 23px;
  	}
 
-	}
+}
 
 @media screen and (max-width: 450px) {
 	h1{
 		font-size: 5rem;
 	}
-		.italy{
+
+	.italy{
 		float: none;
 		height: 50%;
 		width: 100%;
@@ -392,3 +554,8 @@ p{
 	}
 }
 	
+@media screen and (max-width: 320px) {
+	p{
+		font-size: 1.9rem;
+	}
+}
